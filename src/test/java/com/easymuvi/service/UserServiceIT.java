@@ -27,7 +27,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Integration tests for {@link UserService}.
+ * Integration tests for {@link UserService}..
  */
 @SpringBootTest(classes = EasymuviApp.class)
 @Transactional
