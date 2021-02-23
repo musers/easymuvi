@@ -6,17 +6,17 @@ Navbar
 ========================================================================== */
 
 .navbar-version {
-  font-size: 0.65em;
-  color: $navbar-dark-color;
+  font-size: 15em;
+  color: $navbar-light-color;
 }
 
 .profile-image {
-  height: 1.75em;
+  height: 2sem;
   width: 1.75em;
 }
 
 .navbar {
-  padding: 0.2rem 1rem;
+  padding: 1em 1em;
 
   ul.navbar-nav {
     .nav-item {
@@ -25,7 +25,7 @@ Navbar
   }
 
   a.nav-link {
-    font-weight: 400;
+    font-weight: 500;
   }
 }
 
@@ -33,10 +33,10 @@ Navbar
 Logo styles
 ========================================================================== */
 .logo-img {
-  height: 45px;
-  width: 45px;
+  height: 60px;
+  width: 60px;
   display: inline-block;
   vertical-align: middle;
-  background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
+  background: url('https://i.pinimg.com/originals/16/c0/4f/16c04f8a2faa6c5da72b1cf84f35dc7d.png') no-repeat center center;
   background-size: contain;
 }

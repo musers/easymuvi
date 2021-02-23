@@ -1,23 +1,52 @@
-/* ==========================================================================
-Main page styles
-========================================================================== */
-
-.hipster {
-  display: inline-block;
-  width: 347px;
-  height: 497px;
-  background: url('../../content/images/jhipster_family_member_3.svg') no-repeat center top;
-  background-size: contain;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* wait autoprefixer update to allow simple generation of high pixel density media query */
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (-moz-min-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
-  .hipster {
-    background: url('../../content/images/jhipster_family_member_3.svg') no-repeat center top;
-    background-size: contain;
-  }
+.main {
+  margin-top: -43px;
+  border-style: solid;
+  border-width: 5px;
+  height: 1100px;
+  width: 1502px;
+  margin-left: -40px;
+  background-image: url('https://st4.depositphotos.com/1002077/19879/i/1600/depositphotos_198796464-stock-photo-cinema-background-film-watching-popcorn.jpg');
+}
+
+.main-sub-1 ul {
+  list-style: none;
+}
+.main-sub-1 ul li {
+  border-style: 1px solid white;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(42, 42, 53, 0.795);
+  float: left;
+}
+.main-sub-1 ul li a {
+  text-decoration: none;
+  color: azure;
+  display: block;
+}
+.main-sub-1 ul li a:hover {
+  background-color: rgb(120, 121, 124);
+}
+.main-sub-1 ul ul {
+  display: none;
+  margin-top: 26px;
+}
+.main-sub-1 ul li:hover ul {
+  display: block;
+}
+.main-sub-1 ul ul ul {
+  display: none;
+}
+.main-sub-1 ul li ul li ul {
+  display: none;
+}
+.main-sub-1 ul li ul li:hover ul {
+  display: block;
+  margin-left: 200px;
+  margin-top: -15px;
 }
