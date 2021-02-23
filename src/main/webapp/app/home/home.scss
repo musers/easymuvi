@@ -49,4 +49,65 @@
   display: block;
   margin-left: 200px;
   margin-top: -15px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('https://thumbs.dreamstime.com/b/3d-glasses-stereoscopic-cinema-icon-23073406.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.menu-bar {
+  text-align: center;
+  background-color: coral;
+  text-decoration-line: unset;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li {
+  width: 160px;
+  margin: 7px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu-bar ul li:hover {
+  background-color: darksalmon;
+  border-radius: 20px;
+}
+.sub-list-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-list-1 {
+  display: block;
+  position: absolute;
+  background-color: coral;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-list-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-list-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+}
+.menu-bar ul li:hover .sub-list-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-list-1 ul li:hover {
+  background-color: burlywood;
+}
+.img-class {
+  width: 1000px;
+  height: 400px;
 }

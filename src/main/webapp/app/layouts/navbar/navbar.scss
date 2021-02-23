@@ -1,9 +1,9 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 
-/* ==========================================================================
+/* 
 Navbar
-========================================================================== */
+ */
 
 .navbar-version {
   font-size: 15em;
@@ -29,14 +29,17 @@ Navbar
   }
 }
 
-/* ==========================================================================
+/* 
 Logo styles
-========================================================================== */
+*/
 .logo-img {
   height: 60px;
   width: 60px;
   display: inline-block;
   vertical-align: middle;
+
   background: url('https://i.pinimg.com/originals/16/c0/4f/16c04f8a2faa6c5da72b1cf84f35dc7d.png') no-repeat center center;
+
+  background: url('https://coda.newjobs.com/api/imagesproxy/ms/niche/images/can/film.jpg') no-repeat center center;
   background-size: contain;
 }
